@@ -33,7 +33,7 @@ Installation
 ------------
 1. Setup and startup SNMP on Oracle VM Server, please, use official documentation http://docs.oracle.com/cd/E64076_01/E64083/html/vmadm-config-snmp.html to do it.
 2. Import **zbx-ovm-template.xml** file into Zabbix.
-3. Associate **Template SNMP Oracle VM Server** template to the host.
+3. Associate **Template SNMP Oracle VM Server** template to the host. Set right value for {$SNMP_COMMUNITY} macros.
 
 ### Requirements
 
