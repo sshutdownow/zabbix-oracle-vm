@@ -31,7 +31,7 @@ Graphs
 
 Installation
 ------------
-1. Setup and startup SNMP on Oracle VM Server, please, use official documentation http://docs.oracle.com/cd/E64076_01/E64083/html/vmadm-config-snmp.html to do it.
+1. Setup and startup SNMP on Oracle VM Server, please, [use official documentation](http://docs.oracle.com/cd/E64076_01/E64083/html/vmadm-config-snmp.html) to do it.
 2. Copy MIB file **/usr/share/snmp/mibs/ORACLE-OVS-MIB.txt** from OVS to zabbix host.
 3. Update snmp.conf on zabbix host, if required, and restart zabbix.
 4. Import **zbx-ovm-template.xml** file into Zabbix.
